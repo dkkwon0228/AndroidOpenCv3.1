@@ -1,0 +1,16 @@
+<!-- AppCompat에서 타이틀바를 없애기 위해서는 res / values / styles.xml 파일을 다음 내용으로  대체해야 합니다. -->
+<!-- http://webnautes.tistory.com/1054 -->
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- No Title Bar-->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
+</resources>
